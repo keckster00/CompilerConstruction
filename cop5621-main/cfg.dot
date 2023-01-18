@@ -1,0 +1,15 @@
+digraph print {
+ 1 [label="entry", fontname="monospace", style=filled, fillcolor=mintcream];
+ 1->11
+ 5 [label="bb1", fontname="monospace"];
+ 5->11
+ 8 [label="bb2", fontname="monospace"];
+ 8->11
+ 11 [label="bb3", fontname="monospace"];
+ 12 [label="exit", fontname="monospace", style=filled, fillcolor=mintcream];
+ 11->12
+ 13 [label="entry", fontname="monospace", style=filled, fillcolor=mintcream];
+ 14 [label="exit", fontname="monospace", style=filled, fillcolor=mintcream];
+ 13->14
+ }
+ 
